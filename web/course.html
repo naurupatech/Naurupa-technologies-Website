@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <title>Web Developer Course | Trinetra Solutions</title>
+  <title>Web Developer Course | Naurupa Solutions</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
@@ -46,6 +47,8 @@
       color: #fff;
       padding: 70px 40px;
       text-align: center;
+      border-radius: 10px;
+      /*Given the border radius to the course-hero Sections*/
     }
 
     .course-hero h1 {
@@ -75,10 +78,11 @@
     }
 
     .info {
-      background: #fff;
+      background-color: #d4af37;
+      /*Added this background color to the info boxes*/
       padding: 25px;
       border-radius: 10px;
-      box-shadow: 0 0 15px rgba(0,0,0,0.05);
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
       text-align: center;
     }
 
@@ -93,12 +97,23 @@
       padding: 40px;
       border-radius: 10px;
       margin-bottom: 40px;
-      box-shadow: 0 0 15px rgba(0,0,0,0.05);
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+      border:2px solid #0b1c2d;
     }
 
     .section h2 {
       color: #0b1c2d;
       margin-bottom: 20px;
+    }
+
+    .about-course {
+      background: linear-gradient(to left, #0b1c2d, #143a5c);
+      color: #fff;
+      text-align: center;
+    }
+
+    .about-course h2 {
+      color: #fff;
     }
 
     .section ul {
@@ -149,191 +164,240 @@
 
 <body>
 
-<!-- HEADER -->
-<header>
-  <h2>NauRupa Technologies</h2>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="course.html">Courses</a>
-    <a href="contact.html">Contact</a>
-  </nav>
-</header>
+  <!-- HEADER -->
+  <header>
+    <h2>NauRupa Technologies</h2>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="course.html">Courses</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
 
-<!-- HERO -->
-<div class="course-hero">
-  <h1>Web Developer Course</h1>
-  <p>
-    Learn modern web development from basics to advanced with
-    hands-on projects and industry-oriented training.
-  </p>
-</div>
-
-<!-- CONTENT -->
-<div class="container">
-
-  <!-- COURSE INFO -->
-  <div class="info-boxes">
-    <div class="info">
-      <h3>Duration</h3>
-      <p>6 - 8 Months</p>
-    </div>
-    <div class="info">
-      <h3>Mode</h3>
-      <p>Online / Offline</p>
-    </div>
-    <div class="info">
-      <h3>Level</h3>
-      <p>Beginner to Advanced</p>
-    </div>
-    <div class="info">
-      <h3>Certification</h3>
-      <p>Yes</p>
-    </div>
-  </div>
-
-  <!-- ABOUT COURSE -->
-  <div class="section">
-    <h2>About This Course</h2>
+  <!-- HERO -->
+  <div class="course-hero">
+    <h1>Web Developer Course</h1>
     <p>
-      This Web Developer course is designed to help students build
-      responsive, dynamic, and real-world websites using modern tools
-      and technologies.
+      Learn modern web development from basics to advanced with
+      hands-on projects and industry-oriented training.
     </p>
   </div>
 
-  <!-- WHAT YOU WILL LEARN -->
-  <div class="section">
-    <h2>What You Will Learn</h2>
-    <ul>
-      <li>✔ HTML5 & CSS3</li>
-      <li>✔ JavaScript (Basics to Advanced)</li>
-      <li>✔ Responsive Web Design</li>
-      <li>✔ Git & GitHub</li>
-      <li>✔ Live Projects</li>
-    </ul>
+  <!-- CONTENT -->
+  <div class="container">
+
+    <!-- COURSE INFO -->
+    <div class="info-boxes">
+      <div class="info">
+        <h3>Duration</h3>
+        <p>6 - 8 Months</p>
+      </div>
+      <div class="info">
+        <h3>Mode</h3>
+        <p>Online / Offline</p>
+      </div>
+      <div class="info">
+        <h3>Level</h3>
+        <p>Beginner to Advanced</p>
+      </div>
+      <div class="info">
+        <h3>Certification</h3>
+        <p>Yes</p>
+      </div>
+    </div>
+
+    <!-- ABOUT COURSE -->
+    <div class="section about-course">
+      <h2>About This Course</h2>
+      <p>
+        This Web Developer course is designed to help students build
+        responsive,<br> dynamic, and real-world websites using modern tools
+        and technologies.
+      </p>
+    </div>
+
+    <!-- WHAT YOU WILL LEARN -->
+    <div class="section">
+      <h2>What You Will Learn</h2>
+      <ul>
+        <li>✔ HTML5 & CSS3</li>
+        <li>✔ JavaScript (Basics to Advanced)</li>
+        <li>✔ Responsive Web Design</li>
+        <li>✔ Git & GitHub</li>
+        <li>✔ Live Projects</li>
+      </ul>
+    </div>
+
+    <!-- WHO CAN JOIN -->
+    <div class="section">
+      <h2>Who Can Join</h2>
+      <ul>
+        <li>✔ Students & Freshers</li>
+        <li>✔ Beginners with no coding background</li>
+        <li>✔ Anyone interested in web development</li>
+      </ul>
+    </div>
+
+    <!-- CERTIFICATE -->
+    <div class="section">
+      <h2>Certification</h2>
+      <p>
+        After successful completion of the course, students will receive
+        a Training Completion Certificate from Naurupa Solutions.
+      </p>
+    </div>
+
+    <!-- CTA -->
+    <div class="cta">
+      <h2>Start Your Web Development Journey Today</h2>
+      <p>Enroll now and build real-world projects.</p>
+      <button onclick="enrollNow()">Enroll Now</button>
+    </div>
+
   </div>
 
-  <!-- WHO CAN JOIN -->
-  <div class="section">
-    <h2>Who Can Join</h2>
-    <ul>
-      <li>✔ Students & Freshers</li>
-      <li>✔ Beginners with no coding background</li>
-      <li>✔ Anyone interested in web development</li>
-    </ul>
-  </div>
 
-  <!-- CERTIFICATE -->
-  <div class="section">
-    <h2>Certification</h2>
+  <!-- HERO -->
+  <div class="course-hero">
+    <h1>Full Stack Developent Course</h1>
     <p>
-      After successful completion of the course, students will receive
-      a Training Completion Certificate from Trinetra Solutions.
+      Learn full stack development from basics to advanced with
+      hands-on projects and industry-oriented training.
     </p>
   </div>
 
-  <!-- CTA -->
-  <div class="cta">
-    <h2>Start Your Web Development Journey Today</h2>
-    <p>Enroll now and build real-world projects.</p>
-    <button onclick="enrollNow()">Enroll Now</button>
-  </div>
+  <!-- CONTENT -->
+  <div class="container">
 
-</div>
-
-
-<!-- HERO -->
-<div class="course-hero">
-  <h1>Full Stack Developent Course</h1>
-  <p>
-    Learn full stack development from basics to advanced with
-    hands-on projects and industry-oriented training.
-  </p>
-</div>
-
-<!-- CONTENT -->
-<div class="container">
-
-  <!-- COURSE INFO -->
-  <div class="info-boxes">
-    <div class="info">
-      <h3>Duration</h3>
-      <p>6 - 8 Months</p>
+    <!-- COURSE INFO -->
+    <div class="info-boxes">
+      <div class="info">
+        <h3>Duration</h3>
+        <p>6 - 8 Months</p>
+      </div>
+      <div class="info">
+        <h3>Mode</h3>
+        <p>Online / Offline</p>
+      </div>
+      <div class="info">
+        <h3>Level</h3>
+        <p>Beginner to Advanced</p>
+      </div>
+      <div class="info">
+        <h3>Certification</h3>
+        <p>Yes</p>
+      </div>
     </div>
-    <div class="info">
-      <h3>Mode</h3>
-      <p>Online / Offline</p>
+
+    <!-- ABOUT COURSE -->
+    <div class="section about-course">
+      <h2>About This Course</h2>
+      <p>
+        This Web Developer course is designed to help students build
+        responsive,<br> dynamic, and real-world websites using modern tools
+        and technologies.
+      </p>
     </div>
-    <div class="info">
-      <h3>Level</h3>
-      <p>Beginner to Advanced</p>
+
+    <!-- WHAT YOU WILL LEARN -->
+    <div class="section">
+      <h2>What You Will Learn</h2>
+      <ul>
+        <li>✔ HTML5 & CSS3</li>
+        <li>✔ JavaScript (Basics to Advanced)</li>
+        <li>✔ Responsive Web Design</li>
+        <li>✔ Git & GitHub</li>
+        <li>✔ Live Projects</li>
+      </ul>
     </div>
-    <div class="info">
-      <h3>Certification</h3>
-      <p>Yes</p>
+
+    <!-- WHO CAN JOIN -->
+    <div class="section">
+      <h2>Who Can Join</h2>
+      <ul>
+        <li>✔ Students & Freshers</li>
+        <li>✔ Beginners with no coding background</li>
+        <li>✔ Anyone interested in web development</li>
+      </ul>
     </div>
+
+    <!-- CERTIFICATE -->
+    <div class="section">
+      <h2>Certification</h2>
+      <p>
+        After successful completion of the course, students will receive
+        a Training Completion Certificate from Naurupa Solutions.
+      </p>
+    </div>
+
+    <!-- CTA -->
+    <div class="cta">
+      <h2>Start Your Web Development Journey Today</h2>
+      <p>Enroll now and build real-world projects.</p>
+      <button onclick="enrollNow()">Enroll Now</button>
+    </div>
+
   </div>
 
-  <!-- ABOUT COURSE -->
-  <div class="section">
-    <h2>About This Course</h2>
-    <p>
-      This Web Developer course is designed to help students build
-      responsive, dynamic, and real-world websites using modern tools
-      and technologies.
-    </p>
-  </div>
+  <!-- FOOTER -->
+  <footer>
+    © 2026 Naurupa Technologies| All Rights Reserved
+  </footer>
 
-  <!-- WHAT YOU WILL LEARN -->
-  <div class="section">
-    <h2>What You Will Learn</h2>
-    <ul>
-      <li>✔ HTML5 & CSS3</li>
-      <li>✔ JavaScript (Basics to Advanced)</li>
-      <li>✔ Responsive Web Design</li>
-      <li>✔ Git & GitHub</li>
-      <li>✔ Live Projects</li>
-    </ul>
-  </div>
+  <script>
+    function enrollNow() {
+      alert("Thank you for your interest! Our team will contact you soon.");
+    }
+    const infoCards = document.querySelectorAll('.info');
+    const courseHero = document.querySelectorAll('.section');
 
-  <!-- WHO CAN JOIN -->
-  <div class="section">
-    <h2>Who Can Join</h2>
-    <ul>
-      <li>✔ Students & Freshers</li>
-      <li>✔ Beginners with no coding background</li>
-      <li>✔ Anyone interested in web development</li>
-    </ul>
-  </div>
+    courseHero.forEach((courseHero) => {  // We have used the forEach loop to apply the event listeners to all elements with the class 'section' (courseHero) instead of just one. This way, both the Web Developer Course and Full Stack Development Course sections will have the 3D tilt effect when hovered over.
+      courseHero.addEventListener('mousemove', (e) => {
+        const rect = courseHero.getBoundingClientRect();
 
-  <!-- CERTIFICATE -->
-  <div class="section">
-    <h2>Certification</h2>
-    <p>
-      After successful completion of the course, students will receive
-      a Training Completion Certificate from Trinetra Solutions.
-    </p>
-  </div>
+        const x = e.clientX - rect.left;
+        const y = e.clientY - rect.top;
 
-  <!-- CTA -->
-  <div class="cta">
-    <h2>Start Your Web Development Journey Today</h2>
-    <p>Enroll now and build real-world projects.</p>
-    <button onclick="enrollNow()">Enroll Now</button>
-  </div>
+        const centerX = rect.width / 2;
+        const centerY = rect.height / 2;
 
-</div>
+        const rotateX = -(y - centerY) / 40;
+        const rotateY = (x - centerX) / 40;
 
-<!-- FOOTER -->
-<footer>
-  © 2026 Trinetra Solutions Pvt. Ltd. | All Rights Reserved
-</footer>
+        courseHero.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
+      });
 
-<script>
-  function enrollNow() {
-    alert("Thank you for your interest! Our team will contact you soon.");
-  }
-</script>
+      courseHero.addEventListener('mouseleave', () => {
+        courseHero.style.transform = 'rotateX(0deg) rotateY(0deg)';
+      });
+    });
+
+
+
+    infoCards.forEach((infoCard) => { // The similar we have done here for the info cards as well, so that all the info boxes will have the 3D tilt effect when hovered over.
+      infoCard.addEventListener('mousemove', (e) => {
+        const rect = infoCard.getBoundingClientRect();
+
+        const x = e.clientX - rect.left;
+        const y = e.clientY - rect.top;
+
+        const centerX = rect.width / 2;
+        const centerY = rect.height / 2;
+
+        const rotateX = -(y - centerY) / 10;
+        const rotateY = (x - centerX) / 10;
+
+        infoCard.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
+      });
+
+      infoCard.addEventListener('mouseleave', () => {
+        infoCard.style.transform = 'rotateX(0deg) rotateY(0deg)';
+      });
+    });
+
+
+  </script>
 
 </body>
+
 </html>
